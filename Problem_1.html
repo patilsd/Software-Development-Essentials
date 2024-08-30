@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8b6c95fcc2.js" crossorigin="anonymous"></script>
+    <style>
+        .container {
+            max-width: 1300px;
+            margin: auto;
+
+
+        }
+
+        .blue {
+            max-width: 1300px;
+            background-color: rgb(38, 38, 163);
+            /* padding-right: 30px;
+            padding-left: 30px; */
+
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .navigation img {
+            width: 130px;
+            height: 35px;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+        }
+
+        .nav-bar>div {
+            padding-top: 8px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .card {
+            position: relative;
+            width: 250px;
+            height: 300px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .qr-code-corner {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            background-color: #4285F4;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .qr-code-corner img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .card-content {
+            margin-top: 20px;
+        }
+
+        .apple-logo {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .Talk {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 150px;
+        }
+
+        .mob {
+            height: 550px;
+            overflow: hidden;
+        }
+
+        .mob img {
+            width: 550px;
+        }
+
+        .load {
+            width: 500px;
+            color: white;
+        }
+
+        .load h1 {
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .load p {
+            width: 500px;
+            color: white;
+            margin-top: 0px;
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+
+        .app {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            height: 200px;
+            width: 150px;
+        }
+
+        .card-content p {
+            width: 150px;
+            font-size: 20px;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            color: black;
+        }
+
+        .lower-part {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .first-class {
+            width: 300px;
+            margin-top: 40px;
+        }
+
+        .first-class p {
+            margin-bottom: 0px;
+        }
+
+        .first-class>p:first-child {
+            font-weight: bold;
+        }
+
+        .first-class>p:last-child {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+
+        .ultimate {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .ultimate h1 {
+            font-size: 40px;
+            font-weight: 530;
+        }
+
+        .ultimate p {
+            font-size: 25px;
+            color: rgb(102, 101, 101);
+            font-weight: 250;
+        }
+
+        .First-card {
+
+            margin-top: 150px;
+            text-align: center;
+
+        }
+
+        .upper-cards {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            gap: 50px;
+        }
+
+        .single-card {
+            width: 500px;
+        }
+
+        .single-card h2 {
+            font-weight: 545;
+            color: #000000;
+        }
+
+        .single-card p {
+            color: grey;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="blue">
+            <nav>
+                <div class="navigation">
+                    <img src="https://ali-global-cdn.hellotalk8.com/www/image/logo/HelloTalk-1@2.png?v=2"
+                        alt="HelloTalk">
+                    <div class="nav-bar">
+                        <div>About</div>
+                        <div>HelloTalk Web</div>
+                        <div>English v</div>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <div class="Talk">
+                    <div class="mob">
+                        <img src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-phone-header.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+                            alt="mobile image">
+                    </div>
+                    <div class="load">
+                        <h1>Talk to the World</h1>
+                        <p>Learn a language for free by chatting with native speakers around the world!</p>
+                        <div class="app">
+                            <div class="card">
+                                <div class="qr-code-corner">
+                                    <i class="fa-solid fa-qrcode fa-2xl" style="color: #f9fafb;"></i>
+                                </div>
+                                <div class="card-content">
+                                    <i class="fa-brands fa-apple fa-2xl" style="color: #000000;"></i>
+                                    <p>Download the iOS app</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="qr-code-corner">
+                                    <i class="fa-solid fa-qrcode fa-2xl" style="color: #f9fafb;"></i>
+                                </div>
+                                <div class="card-content">
+                                    <i class="fa-brands fa-apple fa-2xl" style="color: #000000;"></i>
+                                    <p>Download the iOS app</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lower-part">
+                            <div class="first-class">
+                                <p>150+</p>
+                                <p>Languages supported</p>
+                            </div>
+                            <div class="first-class">
+                                <p>50+ million
+                                <p>
+                                <p>Members to chat with</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <section class="ultimate">
+            <h1>The UItimate Language Exchange</h1>
+            <p>Learn a language, explore new cultures, and make friends around the world</p>
+        </section>
+
+        <section class="First-card">
+            <div class="upper-cards">
+                <div class="single-card">
+                    <i class="fa-brands fa-dribbble fa-2xl"></i>
+                    <h2>Worldwide Community</h2>
+                    <p>Native speakers teach you their language, while you teach them yours. Millions of people use
+                        HelloTalk to practice 150+ languages.</p>
+
+                </div>
+                <div class="single-card">
+                    <i class="fa-solid fa-video fa-2xl"></i>
+                    <h2>Text, Voice, Video, and More</h2>
+                    <p>Chat with language partners through text and voice messages, stickers, voice and video calls, and
+                        interactive Voicerooms and Lives. Whatever your communication preference, choose the method that
+                        best fits your learning goals!</p>
+
+                </div>
+            </div>
+            <div class="upper-cards">
+                <div class="single-card">
+                    <i class="fa-solid fa-language fa-2xl"></i>
+                    <h2>Intuitive Language Tools</h2>
+                    <p>Built-in aids for translation, pronunciation, transliteration, and corrections make conversations
+                        run smoothly. Learning is as simple as chatting!</p>
+
+                </div>
+                <div class="single-card">
+                    <i class="fa-solid fa-compass fa-2xl"></i>
+                    <h2>Moments</h2>
+                    <p>Engage with the entire community by posting Moments. The public posts are seen by all native
+                        speakers of your target language and are ideal for asking questions and sharing updates..</p>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
